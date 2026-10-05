@@ -1,0 +1,10 @@
+# Python dependencies for the Campus Customs backend (FastAPI + PydanticAI agent).
+# Install into a local virtual environment:
+#   python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
+
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-dotenv>=1.0.1
+openai>=1.50.0
+pydantic[email]>=2.0.0
+pydantic-ai-slim[openai]>=1.0.0

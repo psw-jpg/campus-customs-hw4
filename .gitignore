@@ -1,0 +1,18 @@
+# Secrets — never commit the real key or session secret
+.env
+backend/.session_secret
+
+# Data pack (provided separately; place in ./data before running)
+data/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node / build
+node_modules/
+dist/
+
+# OS
+.DS_Store
